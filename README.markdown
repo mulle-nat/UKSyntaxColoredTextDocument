@@ -1,3 +1,5 @@
+This is a fork by Nat!, that contains some small fixes.
+
 #UKSyntaxColoredTextDocument
 
 This is a view controller class that implements a text editor that performs "live" syntax coloring in an NSTextView, and generally tries to be helpful to editing structured text documents for programming.
