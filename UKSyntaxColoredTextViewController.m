@@ -32,7 +32,7 @@
 #import "UKSyntaxColoredTextViewController.h"
 #import "NSArray+Color.h"
 #import "NSScanner+SkipUpToCharset.h"
-#import "UKHelperMacros.h"
+//#import "UKHelperMacros.h"
 
 
 // -----------------------------------------------------------------------------
@@ -91,8 +91,8 @@ static BOOL			sSyntaxColoredTextDocPrefsInited = NO;
 -(void)	dealloc
 {
 	[[NSNotificationCenter defaultCenter] removeObserver: self];
-	
-	DESTROY_DEALLOC(replacementString);
+   [replacementString release];
+   //	DESTROY_DEALLOC(replacementString);
 	
 	[super dealloc];
 }
@@ -1146,6 +1146,7 @@ static BOOL			sSyntaxColoredTextDocPrefsInited = NO;
 				/*return*/;  // Don't exit. If user forgot trailing marker, indicate this by "bleeding" until end of string.
 			vEndOffs = [vScanner scanLocation];
 			
+                   //                        NSLog( @"\"%@\" %@-%@ %ld-%ld", [s string], startCh, endCh, (long) vStartOffs, (long) vEndOffs);
 			// Now mess with the string's styles:
 			[s setAttributes: vStyles range: NSMakeRange( vStartOffs, vEndOffs -vStartOffs )];
 			
@@ -1344,7 +1345,8 @@ static BOOL			sSyntaxColoredTextDocPrefsInited = NO;
 
 -(NSDictionary*)	defaultTextAttributes
 {
-	return [NSDictionary dictionaryWithObjectsAndKeys: [NSFont userFixedPitchFontOfSize: 10.0], NSFontAttributeName, nil];
+	return [NSDictionary dictionaryWithObjectsAndKeys: [NSFont fontWithName:@"Andale Mono"
+                                                                           size:13.0], NSFontAttributeName, nil];
 }
 
 

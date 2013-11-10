@@ -72,7 +72,7 @@
 // Support for external editor interface:
 //	(Doesn't really work yet ... *sigh*)
 
-#pragma options align=mac68k
+//#pragma options align=mac68k
 
 struct SelectionRange
 {

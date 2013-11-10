@@ -32,7 +32,7 @@
 
 -(void)	drawRect: (NSRect)dirtyRect
 {
-    NSGradient*		sGradient = nil;
+    static NSGradient*		sGradient = nil;
 	if( !sGradient )
 		sGradient = [[NSGradient alloc] initWithColorsAndLocations:
 			[NSColor whiteColor], 0.0,
