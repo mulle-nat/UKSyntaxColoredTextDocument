@@ -84,5 +84,5 @@ struct SelectionRange
 	long	theDate;	// modification date/time
 };
 
-#pragma options align=reset
+// #pragma options align=reset
 
