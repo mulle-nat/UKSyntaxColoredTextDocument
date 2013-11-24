@@ -28,7 +28,6 @@
 		3DFECEC706558AD20059B4E8 /* InsertionMark.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3DFECEC506558AD20059B4E8 /* InsertionMark.tiff */; };
 		3DFECED2065592BE0059B4E8 /* UKSCTDUserIdentifiersPrefsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFECED0065592BE0059B4E8 /* UKSCTDUserIdentifiersPrefsController.h */; };
 		3DFECED3065592BE0059B4E8 /* UKSCTDUserIdentifiersPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFECED1065592BE0059B4E8 /* UKSCTDUserIdentifiersPrefsController.m */; };
-		550765DE14CAC220008CFDF2 /* UKHelperMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 550765DD14CAC220008CFDF2 /* UKHelperMacros.h */; };
 		55255A4B114C077D00279B03 /* UKSyntaxColoredTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 55255A49114C077D00279B03 /* UKSyntaxColoredTextViewController.h */; };
 		55255A4C114C077D00279B03 /* UKSyntaxColoredTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55255A4A114C077D00279B03 /* UKSyntaxColoredTextViewController.m */; };
 		55D9D77C112DDF18001ADF29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D9D77A112DDF18001ADF29 /* MainMenu.xib */; };
@@ -36,7 +35,6 @@
 		55D9D784112DDF44001ADF29 /* UKMultiSyntaxColoredTextDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D9D782112DDF44001ADF29 /* UKMultiSyntaxColoredTextDocument.xib */; };
 		55F40EF71143C4E500B2BC40 /* UKSCTDGradientBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F40EF51143C4E500B2BC40 /* UKSCTDGradientBar.h */; };
 		55F40EF81143C4E500B2BC40 /* UKSCTDGradientBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F40EF61143C4E500B2BC40 /* UKSCTDGradientBar.m */; };
-		8D15AC290486D014006FF6A4 /* UKSyntaxColoredDocument_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF750370BD2300C91783 /* UKSyntaxColoredDocument_Prefix.pch */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -50,7 +48,6 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32DBCF750370BD2300C91783 /* UKSyntaxColoredDocument_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKSyntaxColoredDocument_Prefix.pch; sourceTree = "<group>"; };
 		3D1A2807058B947200E623FD /* SyntaxColorDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; path = SyntaxColorDefaults.plist; sourceTree = "<group>"; };
 		3D1A2834058BA91800E623FD /* UKTextDocGoToBox.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UKTextDocGoToBox.h; sourceTree = "<group>"; };
 		3D1A2835058BA91800E623FD /* UKTextDocGoToBox.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UKTextDocGoToBox.m; sourceTree = "<group>"; };
@@ -73,7 +70,6 @@
 		3DFECEC506558AD20059B4E8 /* InsertionMark.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = InsertionMark.tiff; sourceTree = "<group>"; };
 		3DFECED0065592BE0059B4E8 /* UKSCTDUserIdentifiersPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKSCTDUserIdentifiersPrefsController.h; sourceTree = "<group>"; };
 		3DFECED1065592BE0059B4E8 /* UKSCTDUserIdentifiersPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKSCTDUserIdentifiersPrefsController.m; sourceTree = "<group>"; };
-		550765DD14CAC220008CFDF2 /* UKHelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UKHelperMacros.h; path = ../UliKit/UKHelperMacros.h; sourceTree = "<group>"; };
 		55255A49114C077D00279B03 /* UKSyntaxColoredTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKSyntaxColoredTextViewController.h; sourceTree = "<group>"; };
 		55255A4A114C077D00279B03 /* UKSyntaxColoredTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKSyntaxColoredTextViewController.m; sourceTree = "<group>"; };
 		55D9D77B112DDF18001ADF29 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -157,8 +153,6 @@
 		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF750370BD2300C91783 /* UKSyntaxColoredDocument_Prefix.pch */,
-				550765DD14CAC220008CFDF2 /* UKHelperMacros.h */,
 				2A37F4B0FDCFA73011CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -222,7 +216,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D15AC290486D014006FF6A4 /* UKSyntaxColoredDocument_Prefix.pch in Headers */,
 				3D1A2836058BA91800E623FD /* UKTextDocGoToBox.h in Headers */,
 				3D1A2A19058BC7B200E623FD /* NSScanner+SkipUpToCharset.h in Headers */,
 				3DCE61A40655566B00B36B62 /* UKSCTDColorWellPrefsController.h in Headers */,
@@ -233,7 +226,6 @@
 				3D5D9F3C08873A4B00058C2B /* NSArray+Color.h in Headers */,
 				55F40EF71143C4E500B2BC40 /* UKSCTDGradientBar.h in Headers */,
 				55255A4B114C077D00279B03 /* UKSyntaxColoredTextViewController.h in Headers */,
-				550765DE14CAC220008CFDF2 /* UKHelperMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +256,8 @@
 /* Begin PBXProject section */
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 3D5D9F3208873A1700058C2B /* Build configuration list for PBXProject "UKSyntaxColoredDocument" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
@@ -368,93 +362,34 @@
 		3D5D9F2F08873A1700058C2B /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_DYNAMIC_NO_PIC = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_ENABLE_TRIGRAPHS = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = UKSyntaxColoredDocument_Prefix.pch;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = UKSyntaxColoredDocument;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
 			};
 			name = Development;
 		};
 		3D5D9F3008873A1700058C2B /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEPLOYMENT_POSTPROCESSING = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_TRIGRAPHS = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = UKSyntaxColoredDocument_Prefix.pch;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = UKSyntaxColoredDocument;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
 			};
 			name = Deployment;
 		};
 		3D5D9F3108873A1700058C2B /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_TRIGRAPHS = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = UKSyntaxColoredDocument_Prefix.pch;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = UKSyntaxColoredDocument;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Default;
@@ -462,6 +397,7 @@
 		3D5D9F3308873A1700058C2B /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
 			};
 			name = Development;
 		};
@@ -474,6 +410,7 @@
 		3D5D9F3508873A1700058C2B /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
 			};
 			name = Default;
 		};

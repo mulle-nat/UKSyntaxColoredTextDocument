@@ -1,13 +1,9 @@
-This is a fork by Nat!, that contains some small fixes.
+This is a fork by Nat!, that contains some small fixes and removes an external
+header dependency.
 
 #UKSyntaxColoredTextDocument
 
 This is a view controller class that implements a text editor that performs "live" syntax coloring in an NSTextView, and generally tries to be helpful to editing structured text documents for programming.
-
-
-##Requirements
-
-You *must* check out UliKit into a folder next to this one, or you will get missing files.
 
 
 ##Features
